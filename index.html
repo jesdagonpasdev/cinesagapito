@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cines Agapito</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/simplePagination.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css" rel="stylesheet">
+</head>
+
+<body background="images/fondo.jpg">
+    <header>
+        <div class="cabecera">
+            <img class="logo" src="images/logo.svg">
+            <h3 class="titulo">Cumpliendo tus sueños en nuestras salas</h3>
+        </div>
+    </header>
+    <div class="contenedor">
+        <center>
+            <div id="pagination-1"></div>
+        </center>
+        <div class="row forselector">
+        </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal modal-fixed-footer">
+        <div class="modal-content inflex">
+            <h2 id="nombre" class="nombreModalc"></h2>
+            <img id="imagenModal" class="imagenModalc" />
+            <div id="horarios">
+                <p id="descripcionModal"></p>
+                <div class="input-field col s12">
+                    <p style="width: 100%;">Dia:</p>
+                    <select>
+                        <option value="martes" selected>Martes</option>
+                        <option value="miercoles">Miercoles</option>
+                        <option value="viernes">Viernes</option>
+                        <option value="sabado">Sabado</option>
+                        <option value="domingo">Domingo</option>
+                    </select>
+                </div>
+                <br>
+                <p style="width: 100%;">Sesiones:</p>
+                <div id="botonera">
+                    <a class="waves-effect waves-light btn horario1">19:00</a>
+                    <a class="waves-effect waves-light btn horario2">21:00</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <img id="cclogo" src="images/cc.svg" />
+        <h3 class="tituloFooter">2018 - PascoloDev. All Rigths reserved.</h3>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/cinevoting.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize-pagination.js"></script>
+    <script type="text/javascript" src="js/jquery.simplePagination.js"></script>
+</body>
+
+</html>
