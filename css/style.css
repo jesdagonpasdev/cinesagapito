@@ -223,7 +223,7 @@ img > #cclogo {
 *********     MEDIA QUERYS     *********
 ***************************************/
 
-@media only screen and (max-width:270px){
+@media only screen and (max-width: 270px){
   .titulo
     {
         display: none;
@@ -251,6 +251,473 @@ img > #cclogo {
     height: auto;
     margin: auto;
   }
+
+  #listaLeyenda2 {
+    transform: scale(1);
+  }
+
+  #listaLeyenda {
+    height: 280px;
+    width: 90%;
+    margin-bottom: 15px;
+  }
+
+  #listaLeyenda > li {
+    height: 160px;
+    width: 100%;
+    margin: 0;
+  }
+
+  #listaLeyenda > li > .fondito {
+    height: 160px;
+    width: 100%;
+  }
+
+  .tituloLeyenda {
+    font-size: 10px;
+  }
+
+  .fondito > div {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .fondito > div > h5 {
+    height: 100%;
+    width: 48%;
+  }
+
+  .fondito > div > svg {
+    height: 100%;
+    width: 48%;
+  }
+
+  .fondito > div > svg * {
+    transform: scale(0.8);
+  }
+
+  .contenidoMio > .row > #cuentaForm {
+    width: 100%;
+  }
+
+  .contenidoMio > .row > #fechaForm {
+    width: 100%;
+  }
+
+  .contenidoMio > .row > #ccvForm {
+    width: 100%;
+  }
+
+  #sala {
+    width: 99%;
+    height: auto;
+    border: 2px solid black;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 3px;
+  }
+
+  #svgpantalla {
+    width: 70px;
+    height: 30px;
+  }
+
+  #svgpantalla > g > rect {
+    width: 70px;
+    height: 30px;
+  }
+
+  #svgpantalla > g > text {
+    font-size: 8px;
+  }
+
+  #asientos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 240px;
+    width: 240px;
+    margin: auto;
+  }
+
+  #asientos * {
+    width: 24px;
+    height: 24px;
+  }
+
+  #asientos * {
+    transform: scale(0.7);
+  }
+}
+
+@media only screen and (max-width: 665px) {
+  /*------------------*/
+  #listaLeyenda2 {
+    height: 175px;
+    margin: 5px;
+    width: 98%;
+  }
+
+  #listaLeyenda {
+    width: 98%;
+    height: auto;
+    margin: 5px;
+  }
+
+  #sala {
+    width: 99%;
+  height: auto;
+  border: 2px solid black;
+  margin: auto;
+  background-color: white;
+  border-radius: 3px;
+  }
+
+  #asientos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 570px;
+  }
+
+  #asientos {
+    transform: scale(1);
+  }
+
+  #asientos * {
+    width: 10%;
+    height: 10%;
+  }
+
+  #asientos > g > rect {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 380px) and (max-width: 465px) {
+  /*------------------*/
+  #listaLeyenda2 {
+    transform: scale(1);
+  }
+
+  #listaLeyenda {
+    height: 265px;
+    width: 95%;
+    margin: 0;
+  }
+
+  #listaLeyenda > li {
+    height: 220px;
+    width: 100%;
+    margin: 0;
+  }
+
+  #listaLeyenda > li > .fondito {
+    height: 220px;
+    width: 100%;
+  }
+
+  .fondito > div {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .fondito > div > h5 {
+    height: 100%;
+    width: 48%;
+  }
+
+  .fondito > div > svg {
+    height: 100%;
+    width: 48%;
+  }
+
+  .fondito > div > svg * {
+    transform: scale(0.8);
+  }
+
+  #sala {
+    width: 90%;
+    height: auto;
+    border: 2px solid black;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+  }
+
+  #asientos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 330px;
+    width: 330px;
+    margin: auto;
+  }
+
+  #asientos * {
+    width: 32px;
+    height: 32px;
+  }
+
+  #asientos * {
+    transform: scale(0.7);
+  }
+}
+
+@media only screen and (min-width: 465px) and (max-width: 670px) {
+  /*------------------*/
+  #listaLeyenda2 {
+    transform: scale(1);
+  }
+
+  #listaLeyenda {
+    height: 265px;
+    width: 95%;
+    margin: 0;
+  }
+
+  #listaLeyenda > li {
+    height: 220px;
+    width: 100%;
+    margin: 0;
+  }
+
+  #listaLeyenda > li > .fondito {
+    height: 220px;
+    width: 100%;
+  }
+
+  .fondito > div {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .fondito > div > h5 {
+    height: 100%;
+    width: 48%;
+  }
+
+  .fondito > div > svg {
+    height: 100%;
+    width: 48%;
+  }
+
+  .fondito > div > svg * {
+    transform: scale(0.8);
+  }
+
+  #sala {
+    width: 90%;
+    height: auto;
+    border: 2px solid black;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+  }
+
+  #asientos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+  }
+
+  #asientos * {
+    width: 30px;
+    height: 30px;
+  }
+
+  #asientos * {
+    transform: scale(0.7);
+  }
+}
+
+@media only screen and (min-width: 270px) and (max-width: 320px) {
+  #listaLeyenda2 {
+    transform: scale(1);
+  }
+
+  #listaLeyenda {
+    height: 200px;
+    width: 90%;
+    margin: 5px;
+  }
+
+  #listaLeyenda > li {
+    height: 160px;
+    width: 100%;
+    margin: 0;
+  }
+
+  #listaLeyenda > li > .fondito {
+    height: 160px;
+    width: 100%;
+  }
+
+  .tituloLeyenda {
+    font-size: 10px;
+  }
+
+  .fondito > div {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .fondito > div > h5 {
+    height: 100%;
+    width: 48%;
+  }
+
+  .fondito > div > svg {
+    height: 100%;
+    width: 48%;
+  }
+
+  .fondito > div > svg * {
+    transform: scale(0.8);
+  }
+
+  #sala {
+    width: 99%;
+    height: auto;
+    border: 2px solid black;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+  }
+
+  #svgpantalla {
+    width: 70px;
+    height: 30px;
+  }
+
+  #svgpantalla > g > rect {
+    width: 70px;
+    height: 30px;
+  }
+
+  #svgpantalla > g > text {
+    font-size: 8px;
+  }
+
+  #asientos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 240px;
+    width: 240px;
+    margin: auto;
+  }
+
+  #asientos * {
+    width: 24px;
+    height: 24px;
+  }
+
+  #asientos * {
+    transform: scale(0.7);
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 380px) {
+  /*------------------*/
+  #listaLeyenda2 {
+    transform: scale(1);
+  }
+
+  #listaLeyenda {
+    height: 200px;
+    width: 90%;
+    margin: 5px;
+  }
+
+  #listaLeyenda > li {
+    height: 160px;
+    width: 100%;
+    margin: 0;
+  }
+
+  #listaLeyenda > li > .fondito {
+    height: 160px;
+    width: 100%;
+  }
+
+  .tituloLeyenda {
+    font-size: 10px;
+  }
+
+  .fondito > div {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .fondito > div > h5 {
+    height: 100%;
+    width: 48%;
+  }
+
+  .fondito > div > svg {
+    height: 100%;
+    width: 48%;
+  }
+
+  .fondito > div > svg * {
+    transform: scale(0.8);
+  }
+
+  #sala {
+    width: 95%;
+    height: auto;
+    border: 2px solid black;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+  }
+
+  #svgpantalla {
+    width: 100px;
+    height: 40px;
+  }
+
+  #svgpantalla > g > rect {
+    width: 100px;
+    height: 40px;
+  }
+
+  #svgpantalla > g > text {
+    font-size: 16px;
+  }
+
+  #asientos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 280px;
+    width: 280px;
+    margin: auto;
+  }
+
+  #asientos * {
+    width: 28px;
+    height: 28px;
+  }
+
+  #asientos * {
+    transform: scale(0.7);
+  }
 }
 
 @media only screen and (min-width: 270px) and (max-width: 420px) {
@@ -266,7 +733,12 @@ img > #cclogo {
     width: 200px;
     height: auto;
     margin: auto;
-  }  
+  }
+  #horarios {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 420px) and (max-width: 535px) {
@@ -274,7 +746,12 @@ img > #cclogo {
   width: 48%;
   height: auto;
   margin: auto;
-}  
+}
+#horarios {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+}
 }
 
 @media only screen and (min-width: 535px) and (max-width: 550px) {
@@ -290,8 +767,28 @@ img > #cclogo {
     width: 32%;
     height: auto;
     margin: auto;
-  }  
+  }
+  #horarios {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+  }
 }
+
+@media only screen and (min-width: 660px) and (max-width: 900px) {
+  #listaLeyenda2 {
+    height: 175px;
+    width: 98%;
+    margin: 5px;  
+  }
+  #listaLeyenda {
+    width: 480px;
+    height: auto;
+    margin: 5px;
+    float: left;
+  }
+}
+
 
 @media only screen and (min-width: 800px) and (max-width: 910px) {
   .serepite {
@@ -305,11 +802,76 @@ img > #cclogo {
     flex-flow: row wrap;
     justify-content: flex-start;
   }
+  #horarios {
+    display: flex;
+    flex-flow: column wrap;
+    width: 60%;
+    margin-left: 5px;
+  }
 }
 
 @media only screen and (min-width: 910px) {
   .serepite {
     width: 16%;
     height: auto;
-  }  
+  } 
+  #horarios {
+    display: flex;
+    flex-flow: column wrap;
+    width: 70%;
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1125px) {
+  #horarios {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 980px) {
+  .serepite {
+    width: 16%;
+    height: auto;
+  } 
+
+  #horarios {
+    display: flex;
+    flex-flow: column wrap;
+    width: 70%;
+    margin-left: 5px;
+  }
+
+  #listaLeyenda2 {
+    height: 175px;
+    width: 98%;
+    margin: 5px;  
+  }
+
+  #listaLeyenda {
+    width: 25%;
+    height: 530px;
+    margin: 5px;
+  }
+
+  #listaLeyenda > li {
+    width: 99%;
+    height: 530px;
+  }
+
+  #listaLeyenda > li > .fondito {
+    width: 99%;
+    height: 490px;
+  }
+
+  #sala {
+    width: 73%;
+  height: auto;
+  border: 2px solid black;
+  margin: auto;
+  background-color: white;
+  border-radius: 3px;
+  }
 }

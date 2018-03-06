@@ -69,7 +69,7 @@
             </li>
         </ul>
         <div id="sala">
-            <svg width="300" height="75" style="display: block; margin: auto;">
+            <svg id="svgpantalla" width="300" height="75" style="display: block; margin: auto;">
                 <g>
                     <rect width="300" height="75" style="fill:grey;stroke-width:5;stroke:rgb(0,0,0)" />
                     <text x="50" y="50" font-family="Verdana" font-size="35" fill="white">PANTALLA</text>
@@ -737,17 +737,17 @@
                         <input id="email" type="email" class="validate">
                         <label for="email" data-error="wrong" data-success="right">Email</label>
                     </div>
-                    <div class="input-field col s6">
+                    <div id="cuentaForm" class="input-field col s6">
                         <i class="material-icons prefix">card_giftcard</i>
                         <input id="icon_telephone" type="tel" class="validate">
                         <label for="icon_telephone">Número de cuenta</label>
                     </div>
-                    <div class="input-field col s4">
+                    <div id="fechaForm" class="input-field col s4">
                         <i class="material-icons prefix">date_range</i>
                         <input id="icon_telephone" type="text" class="validate" placeholder="mm/aa">
                         <label for="icon_telephone">Fecha</label>
                     </div>
-                    <div class="input-field col s2">
+                    <div id="ccvForm" class="input-field col s2">
                         <i class="material-icons prefix">security</i>
                         <input id="icon_telephone" type="tel" class="validate">
                         <label for="icon_telephone">CCV</label>
