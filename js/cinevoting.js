@@ -18,26 +18,26 @@ $(document).ready(function () {
     { "title": 'Star Wars: Rogue One', "image": 'images/10.jpg', "sinopsis": "Jyn Erso (Felicity Jones) es una problemática recluta Rebelde, hábil y testaruda, que está a punto de experimentar su mayor desafío hasta la fecha. Mon Mothma (Genevieve O'Reilly), Senadora y líder secreto de la Alianza Rebelde, le ha confiado el mando de un importante cometido: robar los planos de la Estrella de la Muerte, la última y destructiva arma del Imperio Galáctico que tiene a Orson Krennic (Ben Mendelsohn) como director de seguridad." },
     { "title": 'Sharknado 2', "image": 'images/11.jpg', "sinopsis": "Después de un accidentado viaje para llegar a Nueva York,Fin (Ian Ziering) y Alex (Tara Reid) tendrán que volver a enfrentarse a otro terrible sharknado, esta vez junto a Ellen Brody (Kari Wuhrer) y Martin Brody (Mark McGrath), la hermana y el cuñado de Fin." },
     { "title": 'Sharknado 5', "image": 'images/12.jpg', "sinopsis": "En esta nueva aventura, Fin Shepard (Ian Ziering) y su esposa April (Tara Reid) se toman esta nueva misión como algo personal cuando el más joven de sus hijos queda atrapado en un “viajenado” y transportado por todo el mundo. De Londres a Río de Janeiro, Tokio, Roma, Amsterdam y más allá, nuestros héroes necesitarán la ayuda de un grupo altamente cualificado: gente de la realeza, estudiosos y deportistas olímpicos, uniéndolos con caras conocidas del mundo de la comunicación, el entretenimiento y los deportes en su batalla más épica hasta la fecha." }];
-    var divGrande = '<div id="page' + k + '" class="col s6 m2 serepite">';
     var divGeneral = '<div class="card">';
     results.forEach(element => {
+        var divGrande = '<div id="page' + k + '" class="serepite">';
         var rutaImagen = element.image;
         cardDeck.append(divGrande);
-        cardDeck.children().last().addClass('espacioAlrededor');
+        //cardDeck.children().last().addClass('espacioAlrededor');
         cardDeck.children().last().append(divGeneral);
         var divImage = '<div class="card-image">';
         var imagen = '<img src="' + rutaImagen + '" alt="' + element.title + '">';
-        var abrir = '<a class="btn-floating halfway-fab waves-effect waves-light red">';
-        var boton = '<i class="material-icons muestran">add</i>';
+        //var abrir = '<a class="btn-floating halfway-fab waves-effect waves-light red">';
+        //var boton = '<i class="material-icons muestran">add</i>';
         var divDos = '<div class="card-content">';
-        var titulo = '<h5 value="' + element.title + '">' + element.title + '</h5>';
+        var titulo = '<h5 class="flow-text tituloPeli" value="' + element.title + '">' + element.title + '</h5>';
         var escondido = '<p hidden>'+element.sinopsis+'</p>';
         var ultimoElemento = cardDeck.children().last().children().last();
         ultimoElemento.append(divImage);
         ultimoElemento.find('div').first().append(imagen);
-        ultimoElemento.find('div').first().append(abrir);
+        //ultimoElemento.find('div').first().append(abrir);
         ultimoElemento.find('div').first().append(escondido);
-        ultimoElemento.find('div').first().find('a').append(boton);
+        //ultimoElemento.find('div').first().find('a').append(boton);
         ultimoElemento.append(divDos);
         ultimoElemento.find('div').last().append(titulo);
         k++;
